@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <table class="table">
+        <fieldset id="field">
+            <legend>Calculadora</legend>
+            Digite o número:<input id="n1" type="number"><br>
+            Digite o número:<input id="n2" type="number"><br>
+            <br>Resultado:<div id="result"></div>
+    
+            <br>
+            <br>Operação:<br>
+            <br>
+    
+            <div class ="container">
+                <input type="radio" name="operacao" value="add" id="add"> Adição<br>
+                <input type="radio" name="operacao" value="sub" id="sub"> Subtração<br>
+                <input type="radio" name="operacao" value="div" id="div"> Divisão<br>
+                <input type="radio" name="operacao" value="mult" id="mult"> Multiplicação<br>
+            </div>
+
+        <br><button id="btnCalcular">Calcular</button>
+        </fieldset>
+    </table>
+    <script src="calc.js"></script>
+</body>
+</html>
